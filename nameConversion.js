@@ -8,7 +8,7 @@ let screamingKebab = document.getElementById("screaming-kebab-case");
 let btn = document.getElementById("convert-btn");
 
 
-btn.addEventListner("click", ()=>{
+btn.addEventListener("click", ()=>{
     camel.innerText = camelCase(input.value);
     pascal.innerText = pascalCase(input.value);
     snake.innerText = snakeCase(input.value);
